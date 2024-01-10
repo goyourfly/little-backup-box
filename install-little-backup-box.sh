@@ -44,7 +44,7 @@ fi
 echo "Selected branch: ${branch}"
 
 # internet-connection required
-ping -c1 google.com &>/dev/null
+ping -c1 baidu.com &>/dev/null
 INTERNET_STATUS=$?
 if [ "${INTERNET_STATUS}" != "0" ]; then
 	echo "No internet-connection detected. Exit."
